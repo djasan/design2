@@ -1,0 +1,147 @@
+
+
+
+ 
+        * {
+          
+            font-family: 'Overpass', sans-serif;
+            box-sizing: border-box;
+            text-align: center;
+   
+        }
+    
+      
+   
+
+
+
+
+
+body{
+    background-color: crimson;
+    --docwidth: 100%;
+}
+
+input {
+width: var(--docwidth);
+}
+#header img{
+    width:var(--docwidth) ;
+
+}
+
+
+#menu .liste1{
+    overflow: hidden;
+    border-radius: 2px;
+
+  }
+  /* .hide { */
+   /*  max-height: 0;
+  }
+  .show {
+    max-height: 500px;
+  }
+   */
+  #menu ul {
+    list-style-type: none;
+   
+  }
+
+  #menu {
+    width: var(--docwidth);
+   
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 4rem 0;
+  }
+  #menu li:hover {
+    cursor: pointer;
+ 
+  }
+  #check {
+    display: flex;
+  }
+  #check:checked ~ #-menu {
+   
+    width: var(--docwidth);
+    margin: auto;
+  }
+  #check:checked ~ label > img {
+    content: url(../images/icon-close.svg);
+  }
+
+
+ .btn-active {
+background-color: #218563;
+    border-radius: 13px ;
+    border: 2px solid rgb(207, 190, 190);
+    font-weight: 700;
+    
+
+}
+h3{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                               /*  
+ 
+ @media screen and (min-width: 576px) {
+   #menu label {
+     display: none;
+   }
+   #inner-menu {
+     color: white;
+     position: static;
+     display: flex;
+     background-color: #ffffff00;
+     box-shadow: none;
+     width: 100%;
+   }
+   #inner-menu ul {
+     border-radius: 5px;
+     display: block;
+   }
+   #inner-menu li {
+     padding-top: 1.1rem;
+ 
+   }
+   #navbtn {
+     margin-left: auto;
+   }
+   #check:checked ~ #inner-menu {
+     flex-direction: row;
+   }
+   #menubtn1 {
+     position: absolute;
+     left: 22%;
+     padding-top: 1.2rem;
+   }
+   #menubtn2 {
+     position: absolute;
+     left: 32%;
+     padding-top: 1.2rem;
+   }
+   #menubtn3 {
+     position: absolute;
+     left: 40%;
+   }
+   #inner-menu span {
+     content: url(../images/icon-arrow-light.svg);
+   }
+ }
+ 
